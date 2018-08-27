@@ -1,0 +1,82 @@
+#content {
+	text-align: center;
+	padding-top: 20%;
+	font-size: 30px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#enter {
+	color: blue;
+}
+
+#enter:hover {
+	background-color: blue;
+	color: white;
+}
+
+.dropdown-item {
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.landscape-gallery {
+	float: left;
+	padding-top: 30px;
+	padding-right: 30px;
+	height: 300px;
+	width: 400px;
+}
+
+.portrait-gallery {
+	float: left;
+	padding-top: 30px;
+	padding-right: 30px;
+	height: 400px;
+	width: 300px;
+}
+
+#homepage {
+	background: url(images/anthony-delanoix-22672.jpg);
+	background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#landscape-header {
+	text-align: center;
+	margin-top: 75px;
+	background-color: #2B6F1C;
+	color: white;
+	padding: 10px;
+}
+
+#portrait-header {
+	text-align: center;
+	margin-top: 75px;
+	background-color: #6699ff;
+	color: white;
+	padding: 10px;
+}
+body {
+    font-family: Georgia;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 3em;
+}
+
+html {
+	height: 100%;
+}
+
+hr {
+	width: 500px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
